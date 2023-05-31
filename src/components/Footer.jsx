@@ -9,16 +9,16 @@ const Footer = () => {
                 <div className="col-md-8">
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
-                    <a className="nav-link text-primary-emphasis" aria-current="page" href="#">Politica de Privacidad</a>
+                    <a className="nav-link text-primary-emphasis" aria-current="page" href="/">Politica de Privacidad</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link text-primary-emphasis" href="#">Protección de datos personales</a>
+                    <a className="nav-link text-primary-emphasis" href="/">Protección de datos personales</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link text-primary-emphasis" href="/contacto">Contacto</a>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link text-primary-emphasis" href="#">Defensa del Consumidor</a>
+                    <a className="nav-link text-primary-emphasis" href="/">Defensa del Consumidor</a>
                     </li>
                 </ul>
                 </div>

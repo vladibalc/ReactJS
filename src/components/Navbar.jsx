@@ -1,18 +1,11 @@
 import React, { Fragment } from 'react';
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 import 'bootstrap/dist/css/bootstrap.css';
 import logo from '../img/logo_hospedaje.jpg';
-import Home from './Home';
-import Habitaciones from './Habitaciones';
-import Promociones from './Promociones';
-import Ubicacion from './Ubicacion';
-import Contacto from './Contacto';
 
 const Navbar = () => {
     return ( 
-        <BrowserRouter>
-
         <Fragment>
             <nav className="navbar navbar-expand-lg bg-color-navbar">
                 <div className="container-fluid bg-black">
@@ -57,15 +50,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <Routes>
-                
-                <Route path="/habitaciones" element={<Habitaciones />} />
-                <Route path="/promociones" element={<Promociones />} />
-                <Route path="/ubicacion" element={<Ubicacion />} />
-                <Route path="/contacto" element={<Contacto />} />
-            </Routes>
         </Fragment>
-        </BrowserRouter>
+        
      );
 }
  
